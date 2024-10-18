@@ -69,4 +69,5 @@ def run_basic_calculator():
     pygame.quit()
     sys.exit()
 
-run_basic_calculator()
+if __name__ == '__main__':
+    run_basic_calculator()
